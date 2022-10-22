@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  ImageList,
-  ImageListItem,
-  ImageListItemBar,
-  IconButton,
-  Button,
-  useTheme,
-  Tooltip,
-} from "@mui/material";
+import { ImageList, ImageListItem, ImageListItemBar, IconButton, Tooltip } from "@mui/material";
 import InfoIcon from "@mui/icons-material/Info";
 import { SurfImageList } from "../ImageData";
 import { SectionTitle } from "./SectionTitle";

@@ -14,15 +14,15 @@ const FontCombo1 = {
   bodyFontFamily: FontFamily.CrimsonText,
 };
 
-const FontCombo2 = {
-  headingFontFamily: FontFamily.Raleway,
-  bodyFontFamily: FontFamily.LibreBaskerville,
-};
+// const FontCombo2 = {
+//   headingFontFamily: FontFamily.Raleway,
+//   bodyFontFamily: FontFamily.LibreBaskerville,
+// };
 
-const FontCombo3 = {
-  headingFontFamily: FontFamily.Lora,
-  bodyFontFamily: FontFamily.Poppins,
-};
+// const FontCombo3 = {
+//   headingFontFamily: FontFamily.Lora,
+//   bodyFontFamily: FontFamily.Poppins,
+// };
 
 const currentFontFamily = FontFamily.Lato;
 
