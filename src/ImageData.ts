@@ -1,0 +1,196 @@
+import { ImageList } from "./types";
+
+export const SurfImageList: ImageList = [
+  {
+    sectionTitle: "My First Noreaster",
+    location: "Gilgo Beach, New York",
+    key: "First-Norester",
+    images: [
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666446557/Surf%20Photos/First%20noreaster%2010-23-14/GOPR0243_tgfehe.jpg",
+        location: "Gilgo Beach, New York",
+        date: "October 23, 2014",
+        rows: 3,
+        cols: 2,
+      },
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666446559/Surf%20Photos/First%20noreaster%2010-23-14/GOPR0242_ezqt5k.jpg",
+        location: "Gilgo Beach, New York",
+        date: "October 23, 2014",
+        rows: 3,
+        cols: 2,
+      },
+    ],
+  },
+  {
+    sectionTitle: "Gilgo Beach September 2017",
+    location: "Gilgo Beach, New York",
+    key: "Gilgo-2017",
+    images: [
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666444402/Surf%20Photos/September%202017/IMG_0472_bv2jgt.jpg",
+        location: "Gilgo Beach, New York",
+        date: "September 2017",
+        rows: 3,
+        cols: 4,
+      },
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666444393/Surf%20Photos/September%202017/IMG_0452_p6kzrb.jpg",
+        location: "Gilgo Beach, New York",
+        date: "September 2017",
+        rows: 3,
+        cols: 2,
+      },
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666444389/Surf%20Photos/September%202017/IMG_0459_owl3es.jpg",
+        location: "Gilgo Beach, New York",
+        date: "September 2017",
+        rows: 3,
+        cols: 2,
+      },
+    ],
+  },
+  {
+    sectionTitle: "Hurricane Irma",
+    location: "Gilgo Beach, New York",
+    key: "Irma-2017",
+    images: [
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666445204/Surf%20Photos/Irma%209-9%209-10%202017/IMG_0320_trzctr.jpg",
+        location: "Gilgo Beach, New York",
+        date: "September 9, 2017",
+        rows: 3,
+        cols: 4,
+      },
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666445212/Surf%20Photos/Irma%209-9%209-10%202017/IMG_0335_abnfm8.jpg",
+        location: "Gilgo Beach, New York",
+        date: "September 9, 2017",
+        cols: 2,
+        rows: 2,
+      },
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666445224/Surf%20Photos/Irma%209-9%209-10%202017/IMG_0346_m7awuk.jpg",
+        location: "Gilgo Beach, New York",
+        date: "September 9, 2017",
+        rows: 2,
+        cols: 2,
+      },
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666445227/Surf%20Photos/Irma%209-9%209-10%202017/IMG_0372_gjfgk5.jpg",
+        location: "Gilgo Beach, New York",
+        date: "September 9, 2017",
+        rows: 3,
+        cols: 4,
+      },
+    ],
+  },
+  {
+    sectionTitle: "Hurricane Jose",
+    location: "Gilgo Beach, New York",
+    key: "Jose-2017",
+    images: [
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666445030/Surf%20Photos/Jose%209%2019%2017/IMG_0420_r9vfpu.jpg",
+        location: "Gilgo Beach, New York",
+        date: "September 19, 2017",
+        rows: 3,
+        cols: 4,
+      },
+    ],
+  },
+  {
+    sectionTitle: "December 2017",
+    location: "Gilgo Beach, New York",
+    key: "December-2017",
+    images: [
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666446381/Surf%20Photos/December%202017/IMG_0775_lpuldh.jpg",
+        location: "Gilgo Beach, New York",
+        date: "December 10, 2017",
+        rows: 2,
+        cols: 4,
+      },
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666446389/Surf%20Photos/December%202017/IMG_0040_m6amvj.jpg",
+        location: "Gilgo Beach, New York",
+        date: "Christmas Eve",
+        rows: 2,
+        cols: 4,
+      },
+    ],
+  },
+  {
+    sectionTitle: "Manasuqan Trip",
+    location: "Manasquan, New Jersey",
+    key: "Manasquan-2018",
+    images: [
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666442029/Surf%20Photos/Manasquan/Spit_u4lw9w.jpg",
+        location: "Manasquan, New Jersey",
+        date: "April 2018",
+        rows: 2,
+        cols: 2,
+      },
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666442026/Surf%20Photos/Manasquan/Pretty_Right_gcmbqn.jpg",
+        location: "Manasquan, New Jersey",
+        date: "April 2018",
+        rows: 2,
+        cols: 2,
+      },
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666442026/Surf%20Photos/Manasquan/Perfect_Right_ztwwlj.jpg",
+        location: "Manasquan, New Jersey",
+        date: "April 2018",
+        rows: 2,
+        cols: 4,
+      },
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666442025/Surf%20Photos/Manasquan/Right_jhn6xg.jpg",
+        location: "Manasquan, New Jersey",
+        date: "April 2018",
+        rows: 2,
+        cols: 3,
+      },
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666442017/Surf%20Photos/Manasquan/nice_right_y8bgl7.jpg",
+        location: "Manasquan, New Jersey",
+        date: "April 2018",
+        cols: 1,
+      },
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666442017/Surf%20Photos/Manasquan/Flawless_yhttpv.jpg",
+        location: "Manasquan, New Jersey",
+        date: "April 2018",
+        cols: 1,
+      },
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666442015/Surf%20Photos/Manasquan/Beaut_Water_ezbyfz.jpg",
+        location: "Manasquan, New Jersey",
+        date: "April 2018",
+        cols: 2,
+      },
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666442014/Surf%20Photos/Manasquan/Hollow_right_and_out_the_back_xbklok.jpg",
+        location: "Manasquan, New Jersey",
+        date: "April 2018",
+        rows: 2,
+        cols: 2,
+      },
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666442014/Surf%20Photos/Manasquan/Dude_about_to_get_smoked_dzcurp.jpg",
+        location: "Manasquan, New Jersey",
+        date: "April 2018",
+        cols: 2,
+        rows: 2,
+      },
+      {
+        img: "https://res.cloudinary.com/bryanborge/image/upload/v1666441405/Surf%20Photos/Manasquan/Flawless_kfqphi.jpg",
+        location: "Manasquan, New Jersey",
+        date: "April 2018",
+        cols: 2,
+      },
+    ],
+  },
+];
