@@ -36,22 +36,27 @@ export const Footer = () => {
           <Stack>
             <Stack direction="row" alignItems="center" spacing={1}>
               <IconButton color="primary" disabled>
-                <LocationOnIcon color="secondary" />
+                <LocationOnIcon color="primary" />
               </IconButton>
               <Link
                 href="https://www.google.com/maps/place/Long+Island/"
                 target="_blank"
                 rel="noreferrer"
                 underline="hover"
-                variant="caption">
+                variant="caption"
+                color="black">
                 Long Island, New York
               </Link>
             </Stack>
             <Stack direction="row" spacing={1} alignItems="center">
               <IconButton color="primary" disabled>
-                <EmailIcon color="secondary" />
+                <EmailIcon color="primary" />
               </IconButton>
-              <Link href="mailto:BryanBorgesano97@gmail.com" underline="hover" variant="caption">
+              <Link
+                href="mailto:BryanBorgesano97@gmail.com"
+                underline="hover"
+                variant="caption"
+                color="black">
                 BryanBorgesano97@gmail.com
               </Link>
             </Stack>
@@ -59,7 +64,7 @@ export const Footer = () => {
           <Box display="flex" flexDirection="column" justifyContent="flex-end" pt={smallMobileAndDown && 2}>
             <Box display="flex" flexDirection="column" justifyContent="flex-end" style={{ width: "300px" }}>
               <Stack direction="row" alignItems="center" justifyContent="space-between" spacing={1}>
-                <Typography variant="caption" gutterBottom color="secondary">
+                <Typography variant="caption" gutterBottom>
                   Connect with me
                 </Typography>
                 {SocialIcons}
@@ -71,8 +76,12 @@ export const Footer = () => {
                 target="_blank"
                 rel="noreferrer">
                 <Stack>
-                  <Typography variant="caption">Designed and Developed By Bryan Borgesano</Typography>
-                  <Typography variant="caption">Last Updated: 10/22/2022</Typography>
+                  <Typography variant="caption" color="black">
+                    Designed and Developed By Bryan Borgesano
+                  </Typography>
+                  <Typography variant="caption" color="black">
+                    Last Updated: 10/22/2022
+                  </Typography>
                 </Stack>
               </Link>
             </Box>
